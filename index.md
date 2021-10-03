@@ -1,7 +1,7 @@
 ---
-Tile: Demo Page
-Author: PP
-Layout: demo_template
+Title:Demo Page
+Author:PP
+Layout:demo_template
 ---
 
 ------
