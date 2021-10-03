@@ -1,5 +1,7 @@
 ---
-Key: Value
+Tile: Demo Page
+Author: PP
+Layout: demo_template
 ---
 
 ------
@@ -9,6 +11,17 @@ Person: Nadia
 Sport: gymnast
 Country: Romania
 -----
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+  <body>  
+    <main>
+      <div>
+        {{ content }}
+      </div>
+    </main>   
+  </body>
+</html>
 
 #1976 Oympics
 
