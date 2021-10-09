@@ -8,10 +8,17 @@ _This is Italics_
 This is Italics again_
 **This is bold agains**
 _Let me try once again with this one in Italics_
-Heading 1 # Olympics 
-Heading 2 ## Olympics ##
+
+# Olympics #
+
+## Olympics ##
 ## 1936 (Berlin) ##
-### through ######
+### Through ####
+Header
+===============
+Header 2
+--------------
+**_This is bold and italic_**
 **Gold**
 _Dhyan Chand_
 'enclosed within ` 
@@ -22,14 +29,20 @@ _Dhyan Chand_
 -  Eggs
 -  Milk
 chekbox selected
-[x] box1
-[x] box2
+[ x ] box 1
+[ x ] box1
+[ x box2
 [x] box3
 clear checkbox
 [] work
 [] style
-| Table Heading1 col | Table Heading 2col|
+
+| column 1 | column 2 |
  | ---------------- | ------------------|
  | Year | Place|
  |1980| Jalandhar |
  |1985 | Jabalpur|
+
+ [img]: (https://depositphotos.com/25410085/stock-photo-two-beautiful-flowers.html.jpg)
+
+![Flower][img]
