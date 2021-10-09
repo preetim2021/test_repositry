@@ -1,15 +1,15 @@
 ---
-title: Demo Page
-author: PP
+title: My First MD
+author: Prem Chand
 layout: demo_template
 ---
 
-------
-This page is written by : Preeti
+The decorations are made with indigenous-foreign fruits and flowers, as well as huge pandals have been installed in the Bhawan area. Likewise, the illumination of the Bhawan area with attractive and colourful lights has also been done.
 
-Person: Nadia
-Sport: gymnast
-Country: Romania
+## {{ page.title}} 
+is the convention for 
+{{page.author}} and aslo for
+{{page.layout}} today.
 -----
 {%include text_for_include_txt %}
 
