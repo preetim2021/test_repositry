@@ -1,7 +1,7 @@
 ---
-Title: Demo Page
-Author: PP
-Layout: demo_template
+title: Demo Page
+author: PP
+layout: demo_template
 ---
 
 ------
@@ -11,18 +11,11 @@ Person: Nadia
 Sport: gymnast
 Country: Romania
 -----
-<!DOCTYPE html>
-<html lang="en">
-<head></head>
-  <body>  
-    <main>
-      <div>
-        {{ content }}
-      </div>
-    </main>   
-  </body>
-</html>
+{%include text_for_include_txt %}
 
 #1976 Oympics
 
 That year this was focues on {{Page.person}}of {{page.country}}, who changes {{page.sport}} forever.
+------
+
+{%include text_for_include_txt %}
