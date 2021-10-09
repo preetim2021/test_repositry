@@ -18,4 +18,4 @@ Country: Romania
 That year this was focues on {{Page.person}}of {{page.country}}, who changes {{page.sport}} forever.
 ------
 
-{%include text_for_include_txt %}
+{% include text_for_include_txt %}
