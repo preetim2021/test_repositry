@@ -1,21 +1,34 @@
 ---
 title: My First MD
-author: Prem Chand
 layout: demo_template
+author: Prem Chand
 ---
 
-The decorations are made with indigenous-foreign fruits and flowers, as well as huge pandals have been installed in the Bhawan area. Likewise, the illumination of the Bhawan area with attractive and colourful lights has also been done.
 
-## {{ page.title}} 
-is the convention for 
-{{page.author}} and aslo for
-{{page.layout}} today.
+## {{ page.title }} is the convention for {{ page.author }} 
+
+and aslo for {{ page.layout }} 
+
+today and always.
 -----
-{%include text_for_include_txt %}
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+  <body>  
+    <main>
+      <div>
+        {{ content }}
+      </div>
+    </main>   
+  </body>
+</html>
 
 #1976 Oympics
 
 That year this was focues on {{Page.person}}of {{page.country}}, who changes {{page.sport}} forever.
+<<<<<<< HEAD
 ------
 
 {% include text_for_include_txt %}
+=======
+>>>>>>> parent of b2d10bd (Added include file.)
